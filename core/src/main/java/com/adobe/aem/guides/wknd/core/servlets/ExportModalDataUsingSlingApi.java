@@ -33,16 +33,16 @@ import static org.apache.sling.scripting.jsp.taglib.SlingFunctions.listChildren;
         selectors = "html",
         extensions="json")
 public class ExportModalDataUsingSlingApi extends SlingSafeMethodsServlet {
-    @Reference
-    NewService newService;
+//    @Reference
+//    NewService newService;
 
 
 
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws ServletException, IOException {
         Map<String,Object> data = new HashMap<>();
-        //ResourceResolver resolver = request.getResourceResolver();
-        ResourceResolver resolver = newService.getResourceResolver();
+        ResourceResolver resolver = request.getResourceResolver();
+//        ResourceResolver resolver = newService.getResourceResolver();
 
         Resource resource = resolver.getResource("/content/wknd/us/homepage/jcr:content/root/container/container/accordion");
 

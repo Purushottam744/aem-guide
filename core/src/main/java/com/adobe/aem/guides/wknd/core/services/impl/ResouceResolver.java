@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component(service = NewService.class)
-public class NewServiceImpl implements NewService{
+public class ResouceResolver implements NewService{
 
     @Reference
     ResourceResolverFactory resourceResolverFactory;

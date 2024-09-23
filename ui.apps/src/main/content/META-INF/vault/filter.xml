@@ -2,5 +2,6 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/wknd/clientlibs"/>
     <filter root="/apps/wknd/components"/>
+
     <filter root="/apps/wknd/i18n"/>
 </workspaceFilter>
