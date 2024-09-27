@@ -1,6 +1,6 @@
 package com.adobe.aem.guides.wknd.core.services.demo;
 
-import com.adobe.aem.guides.wknd.core.models.RequestPojo;
+import com.adobe.aem.guides.wknd.core.models.PoJo.RequestPojo;
 import com.adobe.aem.guides.wknd.core.services.CollectDataFromThirdParty;
 import com.google.gson.Gson;
 import org.apache.http.HttpEntity;

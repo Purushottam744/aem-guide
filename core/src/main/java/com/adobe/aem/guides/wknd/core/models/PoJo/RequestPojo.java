@@ -1,4 +1,4 @@
-package com.adobe.aem.guides.wknd.core.models;
+package com.adobe.aem.guides.wknd.core.models.PoJo;
 
 import java.util.Map;
 
